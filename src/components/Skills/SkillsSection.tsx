@@ -13,8 +13,7 @@ const SkillsSection = () => {
   const programmingSkills = [
     { label: 'Python', percentage: 95 },
     { label: 'SQL', percentage: 90 },
-    { label: 'R', percentage: 80 },
-    { label: 'JavaScript', percentage: 70 },
+    { label: 'PostgreSQL', percentage: 85 }
   ];
 
   const toolsSkills = [
