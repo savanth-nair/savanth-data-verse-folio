@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import ProgressBar from '@/components/ui/ProgressBar';
-import { Python, Database } from 'lucide-react';
+import { Code, Database, Server, BarChart } from 'lucide-react';
 
 const SkillsSection = () => {
   const { ref, inView } = useInView({
@@ -53,7 +53,7 @@ const SkillsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
           <div>
             <div className="flex items-center mb-6">
-              <Python className="text-blue-600 mr-2" size={24} />
+              <Code className="text-blue-600 mr-2" size={24} />
               <h3 className="text-xl font-semibold text-blue-800">Programming Languages</h3>
             </div>
             <div className={`space-y-6 ${inView ? 'animate-fade-in' : 'opacity-0'}`}>
@@ -85,7 +85,7 @@ const SkillsSection = () => {
 
           <div>
             <div className="flex items-center mb-6">
-              <Cloud className="text-blue-600 mr-2" size={24} />
+              <Server className="text-blue-600 mr-2" size={24} />
               <h3 className="text-xl font-semibold text-blue-800">Cloud Services</h3>
             </div>
             <div className={`space-y-6 ${inView ? 'animate-fade-in' : 'opacity-0'}`}>
@@ -101,7 +101,7 @@ const SkillsSection = () => {
 
           <div>
             <div className="flex items-center mb-6">
-              <ChartBar className="text-blue-600 mr-2" size={24} />
+              <BarChart className="text-blue-600 mr-2" size={24} />
               <h3 className="text-xl font-semibold text-blue-800">Data Science</h3>
             </div>
             <div className={`space-y-6 ${inView ? 'animate-fade-in' : 'opacity-0'}`}>
