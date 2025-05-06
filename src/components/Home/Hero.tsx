@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -35,10 +36,11 @@ const Hero = () => {
           <div className="lg:w-1/2 mt-12 lg:mt-0 flex justify-center">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
-                {/* Placeholder for profile image */}
-                <div className="w-full h-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white text-xl">
-                  <span>Savanth Nair</span>
-                </div>
+                <img 
+                  src="/lovable-uploads/4dc3b3c0-03ff-4c9b-8f8e-0c6e781c4950.png"
+                  alt="Savanth Nair"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-white p-3 rounded-full shadow-lg">
                 <div className="bg-blue-600 rounded-full p-3">
