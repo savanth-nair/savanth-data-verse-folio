@@ -13,22 +13,20 @@ const SkillsSection = () => {
   const programmingSkills = [
     { label: 'Python', percentage: 95 },
     { label: 'SQL', percentage: 90 },
-    { label: 'PostgreSQL', percentage: 85 }
   ];
 
-  const toolsSkills = [
-    { label: 'Power BI', percentage: 90 },
-    { label: 'Tableau', percentage: 85 },
-    { label: 'Docker Compose', percentage: 85 },
-    { label: 'Git/Github', percentage: 90 },
-    { label: 'Databricks', percentage: 80 },
-  ];
-
-  const cloudSkills = [
+  const cloudToolsSkills = [
     { label: 'Azure', percentage: 85 },
     { label: 'GCP', percentage: 80 },
+    { label: 'Docker Compose', percentage: 85 },
+    { label: 'Databricks', percentage: 80 },
     { label: 'Snowflake', percentage: 85 },
-    { label: 'AWS', percentage: 70 },
+    { label: 'Git/Github', percentage: 90 },
+  ];
+
+  const visualizationSkills = [
+    { label: 'Power BI', percentage: 90 },
+    { label: 'Tableau', percentage: 85 },
   ];
 
   const otherSkills = [
@@ -70,27 +68,11 @@ const SkillsSection = () => {
 
           <div>
             <div className="flex items-center mb-6">
-              <Database className="text-blue-600 mr-2" size={24} />
-              <h3 className="text-xl font-semibold text-blue-800">Tools & Platforms</h3>
-            </div>
-            <div className={`space-y-6 ${inView ? 'animate-fade-in' : 'opacity-0'}`}>
-              {toolsSkills.map((skill) => (
-                <ProgressBar
-                  key={skill.label}
-                  label={skill.label}
-                  percentage={inView ? skill.percentage : 0}
-                />
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center mb-6">
               <Server className="text-blue-600 mr-2" size={24} />
-              <h3 className="text-xl font-semibold text-blue-800">Cloud Services</h3>
+              <h3 className="text-xl font-semibold text-blue-800">Cloud Tools & Platforms</h3>
             </div>
             <div className={`space-y-6 ${inView ? 'animate-fade-in' : 'opacity-0'}`}>
-              {cloudSkills.map((skill) => (
+              {cloudToolsSkills.map((skill) => (
                 <ProgressBar
                   key={skill.label}
                   label={skill.label}
@@ -103,6 +85,22 @@ const SkillsSection = () => {
           <div>
             <div className="flex items-center mb-6">
               <BarChart className="text-blue-600 mr-2" size={24} />
+              <h3 className="text-xl font-semibold text-blue-800">Visualization</h3>
+            </div>
+            <div className={`space-y-6 ${inView ? 'animate-fade-in' : 'opacity-0'}`}>
+              {visualizationSkills.map((skill) => (
+                <ProgressBar
+                  key={skill.label}
+                  label={skill.label}
+                  percentage={inView ? skill.percentage : 0}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <div className="flex items-center mb-6">
+              <Database className="text-blue-600 mr-2" size={24} />
               <h3 className="text-xl font-semibold text-blue-800">Data Science</h3>
             </div>
             <div className={`space-y-6 ${inView ? 'animate-fade-in' : 'opacity-0'}`}>
