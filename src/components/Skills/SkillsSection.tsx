@@ -19,23 +19,25 @@ const SkillsSection = () => {
 
   const toolsSkills = [
     { label: 'Power BI', percentage: 90 },
-    { label: 'dbt', percentage: 85 },
-    { label: 'MySQL', percentage: 90 },
-    { label: 'Docker', percentage: 80 },
+    { label: 'Tableau', percentage: 85 },
+    { label: 'Docker Compose', percentage: 85 },
+    { label: 'Git/Github', percentage: 90 },
+    { label: 'Databricks', percentage: 80 },
   ];
 
   const cloudSkills = [
-    { label: 'AWS', percentage: 85 },
-    { label: 'Azure', percentage: 80 },
-    { label: 'Snowflake', percentage: 75 },
-    { label: 'GCP', percentage: 70 },
+    { label: 'Azure', percentage: 85 },
+    { label: 'GCP', percentage: 80 },
+    { label: 'Snowflake', percentage: 85 },
+    { label: 'AWS', percentage: 70 },
   ];
 
   const otherSkills = [
     { label: 'Machine Learning', percentage: 90 },
-    { label: 'Data Visualization', percentage: 95 },
+    { label: 'Deep Learning', percentage: 85 },
+    { label: 'NLP', percentage: 85 },
+    { label: 'Data Visualization', percentage: 90 },
     { label: 'ETL Pipelines', percentage: 85 },
-    { label: 'Statistical Analysis', percentage: 85 },
   ];
 
   return (

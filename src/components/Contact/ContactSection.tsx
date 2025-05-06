@@ -140,8 +140,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-sm font-medium text-gray-700">Email</h4>
-                  <a href="mailto:savanth.nair@example.com" className="text-blue-600 hover:text-blue-800">
-                    savanth.nair@example.com
+                  <a href="mailto:savanthnair611@gmail.com" className="text-blue-600 hover:text-blue-800">
+                    savanthnair611@gmail.com
                   </a>
                 </div>
               </div>
@@ -152,7 +152,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-sm font-medium text-gray-700">Phone</h4>
-                  <p className="text-gray-800">+1 (555) 123-4567</p>
+                  <p className="text-gray-800">+61 470236295</p>
                 </div>
               </div>
               
@@ -163,12 +163,12 @@ const ContactSection = () => {
                 <div>
                   <h4 className="text-sm font-medium text-gray-700">LinkedIn</h4>
                   <a 
-                    href="https://www.linkedin.com/in/savanthnair" 
+                    href="https://www.linkedin.com/in/savanth-nair-5b94b2169/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800"
                   >
-                    linkedin.com/in/savanthnair
+                    linkedin.com/in/savanth-nair
                   </a>
                 </div>
               </div>
@@ -180,12 +180,12 @@ const ContactSection = () => {
                 <div>
                   <h4 className="text-sm font-medium text-gray-700">GitHub</h4>
                   <a 
-                    href="https://github.com/savanthnair" 
+                    href="https://github.com/savanth-nair" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800"
                   >
-                    github.com/savanthnair
+                    github.com/savanth-nair
                   </a>
                 </div>
               </div>

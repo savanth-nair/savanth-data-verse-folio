@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Github, Database, ChartBar, Code, Cloud } from 'lucide-react';
+import { Github, Database, Code, Server, BarChart } from 'lucide-react';
 
 const ProjectsSection = () => {
   const projects = [
@@ -10,43 +10,43 @@ const ProjectsSection = () => {
       title: 'Nutrion',
       description: 'Diet recommendation app utilizing NLP and ML for personalized food suggestions. Features a FastAPI backend and Streamlit frontend, deployed via Docker Compose.',
       tags: ['Python', 'FastAPI', 'NLP', 'Machine Learning', 'Docker'],
-      github: 'https://github.com/savanthnair/nutrion',
+      github: 'https://github.com/savanth-nair/Nutrion',
       icon: <Code className="h-6 w-6 text-blue-600" />,
     },
     {
       title: 'Data Engineering Project',
       description: 'End-to-end pipeline involving web scraping book data, storing it in MySQL, executing SQL queries for insights, and visualizing results in Power BI.',
       tags: ['Web Scraping', 'MySQL', 'SQL', 'Power BI'],
-      github: 'https://github.com/savanthnair/data-engineering-project',
+      github: 'https://github.com/savanth-nair/Data-Engineering-Project',
       icon: <Database className="h-6 w-6 text-blue-600" />,
     },
     {
       title: 'Deep Learning Project',
       description: 'Application of transfer learning using CNN architectures (MobileNet V3, NasNet, GoogLeNet) on the Food101 dataset for food classification tasks.',
       tags: ['Deep Learning', 'Transfer Learning', 'CNN', 'Python'],
-      github: 'https://github.com/savanthnair/deep-learning-project',
+      github: 'https://github.com/savanth-nair/Deep-Learning-Project',
       icon: <Code className="h-6 w-6 text-blue-600" />,
     },
     {
       title: 'AI Property Recommendation Tool',
       description: 'A tool designed to provide property recommendations using AI techniques, helping users find the perfect property based on their preferences.',
       tags: ['AI', 'Recommendation Systems', 'Python'],
-      github: 'https://github.com/savanthnair/property-recommender',
-      icon: <ChartBar className="h-6 w-6 text-blue-600" />,
+      github: 'https://github.com/savanth-nair/AI-Property-Recommendation-Tool',
+      icon: <BarChart className="h-6 w-6 text-blue-600" />,
     },
     {
       title: 'Big Data Project',
       description: 'Analysis of YouTube trending videos using Snowflake and SQL to derive insights from large datasets, identifying patterns in viral content.',
       tags: ['Snowflake', 'SQL', 'Big Data', 'Analytics'],
-      github: 'https://github.com/savanthnair/big-data-youtube',
-      icon: <Cloud className="h-6 w-6 text-blue-600" />,
+      github: 'https://github.com/savanth-nair/Big-Data-Project',
+      icon: <Server className="h-6 w-6 text-blue-600" />,
     },
     {
       title: 'Supply and Demand Gap Analysis',
       description: 'Utilization of Power BI to analyze HR data, identifying employee churn patterns and providing real-time HR insights through interactive dashboards.',
       tags: ['Power BI', 'HR Analytics', 'Data Visualization'],
-      github: 'https://github.com/savanthnair/hr-analytics',
-      icon: <ChartBar className="h-6 w-6 text-blue-600" />,
+      github: 'https://github.com/savanth-nair/Supply-and-Demand-Gap-Analysis-using-PowerBI',
+      icon: <BarChart className="h-6 w-6 text-blue-600" />,
     },
   ];
 
